@@ -1,6 +1,6 @@
 #!/bin/bash
 tmp_dir=$(mktemp -d -t ci-XXXXXXXXXX)
-Directory="/var/www/yana-server/plugins/HomeTest/"
+Directory="/var/www/yana-server/plugins/HomeCheck/"
 echo $tmp_dir
 rm -R -f Domo-Com-Server-master
 rm  -f master.zip
