@@ -1,9 +1,11 @@
 #!/bin/bash
-tmp_dir=$(mktemp -d -t ci-XXXXXXXXXX)
 Directory="/var/www/yana-server/plugins/HomeCheck/"
+tmp_dir=$(mktemp -d -t ci-XXXXXXXXXX)
 echo $tmp_dir
-rm -R -f Domo-Com-Server-master
-rm  -f master.zip
+echo "Install zip tool"
+sudo apt-get -y install zip unzip
+echo "backup existing source"
+sudo zip -r BackupHomeCheck.zip "$Directory" -x "*.git*" -x "*thumbs*" -x "*resources*" -x "*qrcode*" -x "*photos*" -x "*build*"
 echo "Getting last version"
 wget -P "$tmp_dir" https://github.com/Domo-Com/Domo-Com-Server/archive/refs/heads/master.zip
 cd $tmp_dir
@@ -25,3 +27,4 @@ sudo chmod -R 775 "$Directory"
 sudo usermod -a -G video www-data
 rm -rf $tmp_dir
 echo "Done"
+exit 0
