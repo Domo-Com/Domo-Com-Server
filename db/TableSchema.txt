@@ -1,0 +1,101 @@
++----------------------------------+
+| Tables_in_domocom                |
++----------------------------------+
+| yana_configuration               |
+| yana_device                      |
+| yana_event                       |
+| yana_homecheckIP                 |
+| yana_personnality                |
+| yana_plugin_ActionCollection     |
+| yana_plugin_AlarmeActionVocal    |
+| yana_plugin_AlarmeCommandeVocale |
+| yana_plugin_AlarmeConf           |
+| yana_plugin_AlarmeEmail          |
+| yana_plugin_AlarmeGPIO           |
+| yana_plugin_AlarmeRelay          |
+| yana_plugin_AlarmeSMS            |
+| yana_plugin_AlarmeSensor         |
+| yana_plugin_AlarmeSensorRadio    |
+| yana_plugin_AlarmeShell          |
+| yana_plugin_AlarmeURL            |
+| yana_plugin_Alarme_ipcam_camera  |
+| yana_plugin_ExecCmd              |
+| yana_plugin_Home_Check           |
+| yana_plugin_actiongroup          |
+| yana_plugin_dashboard            |
+| yana_plugin_dashboard_view       |
+| yana_plugin_room                 |
+| yana_plugin_speechcommand        |
+| yana_rank                        |
+| yana_right                       |
+| yana_section                     |
+| yana_user                        |
++----------------------------------+
+
++----------------------------------+
+| Tables_in_domocom                |
++----------------------------------+
+| yana_configuration               |
+| yana_device                      |
+| yana_event                       |
+| yana_homecheckIP                 |
+| yana_personnality                |
+| yana_plugin_ActionCollection     |
+| yana_plugin_AlarmeActionVocal    |
+| yana_plugin_AlarmeCommandeVocale |
+| yana_plugin_AlarmeConf           |
+| yana_plugin_AlarmeEmail          |
+| yana_plugin_AlarmeGPIO           |
+| yana_plugin_AlarmeRelay          |
+| yana_plugin_AlarmeSMS            |
+| yana_plugin_AlarmeSensor         |
+| yana_plugin_AlarmeSensorRadio    |
+| yana_plugin_AlarmeShell          |
+| yana_plugin_AlarmeURL            |
+| yana_plugin_Alarme_ipcam_camera  |
+| yana_plugin_ExecCmd              |
+| yana_plugin_Home_Check           |
+| yana_plugin_actiongroup          |
+| yana_plugin_dashboard            |
+| yana_plugin_dashboard_view       |
+| yana_plugin_room                 |
+| yana_plugin_speechcommand        |
+| yana_rank                        |
+| yana_right                       |
+| yana_section                     |
+| yana_user                        |
++----------------------------------+
+
+
++----+-----------------------------------+------------------------------------------------+
+| id | conf                              | value                                          |
++----+-----------------------------------+------------------------------------------------+
+|  1 | Plugin_Alarme_TimeStamp           | 1631033689                                     |
+|  2 | Plugin_Alarme_DriveDirectory      | Videos                                         |
+|  3 | Plugin_Alarme_SendEmail           | Yes                                            |
+|  4 | Plugin_Alarme_SendSms             | Yes                                            |
+|  5 | Plugin_Alarme_RepoDirectory       | /mnt/videos/                                   |
+|  6 | Plugin_Alarme_Cli                 | 0                                              |
+|  7 | Plugin_Alarme_StoreDirectory      | /mnt/store/                                    |
+|  8 | Plugin_Alarme_Pic                 | 100                                            |
+|  9 | plugin_alarme_timetoStart         | 10                                             |
+| 10 | plugin_alarme_widget_color        | #50597b                                        |
+| 11 | plugin_alarme_Start               | 0                                              |
+| 12 | plugin_alarme_RefreshWidget       | 8000                                           |
+| 13 | plugin_alarme_RefreshWidgetPhoto  | 30000                                          |
+| 14 | plugin_alarme_CameraDirectory     | /var/www/yana-server/plugins/HomeCheck/camera/ |
+| 15 | Plugin_Alarme_CameraType          | Photo                                          |
+| 16 | Plugin_Alarme_CameraResH          |                                                |
+| 17 | Plugin_Alarme_CameraResV          |                                                |
+| 18 | Plugin_Alarme_CameraTime          |                                                |
+| 19 | Plugin_Alarme_CameraOption        |                                                |
+| 20 | Plugin_Alarme_CameraCopyDirectory |                                                |
+| 21 | plugin_alarme_WidgetCameraOption  |                                                |
+| 22 | plugin_homecheck_temp             |                                                |
+| 23 | plugin_homecheck_feeltemp         |                                                |
+| 24 | plugin_homecheck_humidity         |                                                |
+| 25 | plugin_homecheck_modeday          |                                                |
+| 26 | homecheck_outtemp                 | 0                                              |
+| 27 | homecheck_outhumidity             | 0                                              |
+| 28 | homecheck_sunrise                 | 0                                              |
+| 29 | homecheck_sunset                  | 0          
